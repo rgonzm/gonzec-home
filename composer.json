@@ -1,0 +1,6 @@
+{
+    "name": "rgonzm/gonzec",
+    "require": {
+        "laravel/lumen-installer": "^1.1"
+    }
+}
