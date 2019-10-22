@@ -11,6 +11,12 @@
 |
 */
 
+use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Route;
+
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+//    return $router->app->version();
+    return view('home.index');
 });
+
+//Route::get('/', [HomeController::class, 'index']);
